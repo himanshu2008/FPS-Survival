@@ -270,26 +270,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1aa7bf25b446c4baa8e0af352f470d1b, type: 3}
---- !u!1 &2047093405 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1050075786365909746, guid: 4034f4587ea6f2645bb94479afc363c2,
-    type: 3}
-  m_PrefabInstance: {fileID: 409915939485387869}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2047093406
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2047093405}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 579b48c6c3c335b4db484b48e31f3379, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 5
-  jump_Force: 10
 --- !u!1001 &409915939485387869
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -360,6 +340,11 @@ PrefabInstance:
     - target: {fileID: 6177729365400133264, guid: 4034f4587ea6f2645bb94479afc363c2,
         type: 3}
       propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844668250284206728, guid: 4034f4587ea6f2645bb94479afc363c2,
+        type: 3}
+      propertyPath: roll_Angle
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
