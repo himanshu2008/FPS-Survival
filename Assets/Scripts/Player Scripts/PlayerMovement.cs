@@ -12,7 +12,6 @@ public class PlayerMovement : MonoBehaviour
     void Awake()
     {
         character_Controller = GetComponent<CharacterController>();
-
     }
 
     // Update is called once per frame

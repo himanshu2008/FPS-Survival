@@ -66,6 +66,7 @@
     <Compile Include="Assets\Scripts\Helper Scripts\TagHolder.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\MouseLook.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\Player Scripts\PlayerSprintAndCrouch.cs" />
     <None Include="Assets\Shaders\Standard\_Antialiasing\FXAAPreset2.shader" />
     <None Include="Assets\Shaders\Standard\_DepthOfField\Bokeh34.shader" />
     <None Include="Assets\Shaders\Standard\_DepthOfField\SeparableWeightedBlurDof34.shader" />

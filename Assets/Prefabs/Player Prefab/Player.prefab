@@ -130,6 +130,7 @@ GameObject:
   - component: {fileID: 3532672949640593826}
   - component: {fileID: 3751360327696280974}
   - component: {fileID: 955453791280639123}
+  - component: {fileID: 5861297215324813333}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -182,8 +183,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 579b48c6c3c335b4db484b48e31f3379, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 4
   jump_Force: 10
+--- !u!114 &5861297215324813333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1050075786365909746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b37c56e9d6ea04f44803711e4ca96bd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprint_Speed: 8
+  move_Speed: 4
+  crouch_Speed: 1.5
 --- !u!1 &3012300615427013497
 GameObject:
   m_ObjectHideFlags: 0
@@ -232,6 +248,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerRoot: {fileID: 3532672949640593826}
   lookRoot: {fileID: 7161455074203742349}
+  invert: 0
+  can_Unlock: 1
+  sensitivity: 5
+  smooth_Steps: 10
+  smooth_Weight: 0.4
+  roll_Speed: 3
+  default_Look_Limits: {x: -70, y: 80}
 --- !u!1 &3162657424232324701
 GameObject:
   m_ObjectHideFlags: 0
